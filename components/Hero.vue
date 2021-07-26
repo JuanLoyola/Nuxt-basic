@@ -3,7 +3,7 @@
         <div class="text-container">
             <h1 class="header">Find your Fire Extinguisher</h1>
             <p class="snippet">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto illum quidem asperiores, cum nisi aperiam eius ipsa sapiente odit!</p>
-            <button class="button btn">Start Looking</button>
+            <a class="button btn" href="#category">Start Looking</a>
         </div>
         <img class="image" src="~assets/svg/fire-extinguisher.svg" alt="fire extinguisher">
     </div>
@@ -16,11 +16,11 @@ export default {
 
 <style scoped>
   .Hero {
-    height: 50vh;
+    height: 100vh;
     position: relative;
     display: flex;
     padding: 5rem 0;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
   }
   .text-container {
@@ -36,7 +36,7 @@ export default {
     font-size: 1.25rem;
   }
   .image {
-    width: 27.5rem;
+    width: 27.5em;
     margin-top: 2rem;
   }
   .overlay {

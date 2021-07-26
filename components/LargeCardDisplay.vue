@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" id="category">
     <h4 class="header">
       {{ cardSection.title }}
     </h4>
@@ -24,7 +24,7 @@ export default {
 
 <style scoped>
   .container {
-    margin-top: 8rem;
+    margin-top: 4rem;
   }
   .header {
     font-weight: 700;
