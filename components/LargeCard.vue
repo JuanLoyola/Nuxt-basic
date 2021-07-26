@@ -17,30 +17,36 @@ export default {
 </script>
 
 <style scoped>
-    .card {
-        width: 31.5%;
-        height: 25rem;
-        border: none;
-        overflow: hidden;
-        padding: 0;
-        cursor: pointer;
-    }
-    .image {
-        height: 65%;
-        border-radius: 0.5rem;
-    }
-    .header {
-      font-size: 1.15rem;
-      margin-top: 0.4rem;
-      color: #333;
-    }
-    .header:hover {
-      color: #dd6060;
-    }
-    a {
-      text-decoration: none;
-    }
-    .snippet {
-        color: grey
-    }
+  .card {
+    width: 31.5%;
+    height: 25rem;
+    border: none;
+    overflow: hidden;
+    padding: 0;
+    cursor: pointer;
+    color: #dd6060;
+    filter: grayscale(1);
+    transition: 0.3s;
+  }
+  .card:hover, .header:active{
+    filter: grayscale(0);
+  }
+  .image {
+    height: 65%;
+    border-radius: 0.5rem;
+  }
+  .header {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-top: 0.4rem;
+  }
+  .header:hover {
+    color: #dd6060;
+  }
+  a {
+    text-decoration: none;
+  }
+  .snippet {
+    color: grey;
+  }
 </style>

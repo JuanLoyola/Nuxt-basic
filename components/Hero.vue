@@ -49,14 +49,15 @@ export default {
   .button {
     padding: 1rem 4rem;
     border-radius: 100rem;
-    background-color: rgb(231, 81, 43);
+    background-color: #e7512b;
     color: white;
-    width: 20rem;
+    width: 18rem;
     font-weight: 700;
     transition: 0.5s;
   }
   .button:hover {
     width: 21.5rem;
+    background:#cf8b7a;
   }
   @media (max-width: 500px) {
     .Hero {

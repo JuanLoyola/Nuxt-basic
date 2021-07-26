@@ -31,9 +31,8 @@
                 {{ product.description }}
             </p>
         </div>
-    </div>
-    <div v-else class="container padding">
-        <PageNotFound />
+
+        <Reviews />
     </div>
   </div>
 </template>
