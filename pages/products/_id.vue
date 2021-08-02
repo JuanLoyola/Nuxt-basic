@@ -12,19 +12,19 @@
         <div class="whats-included-container">
             <div class="included-container">
                 <h6>Super Effective</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, dolorem.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, dolore.</p>
             </div>
             <div class="included-container">
                 <h6>Clean & Tidy</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, dolorem.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, dolore.</p>
             </div>
             <div class="included-container">
                 <h6>Cancel Anytime</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, dolorem.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, dolore.</p>
             </div>
             <div class="included-container">
                 <h6>Satisfaction Guaranteed</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, dolorem.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, dolore.</p>
             </div>        
         </div>
         <div class="description-container">
