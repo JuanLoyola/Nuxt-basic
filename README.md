@@ -9,7 +9,8 @@ This repository is for testing new things
 * Vue.js [Routes / Vuex]
 * Nuxt.js
 ```
-
+# Live (desktop)
+<a href="https://nuxt-miniproject.netlify.app" target="_blank">here</a>
 # Desktop preview:
 
 <img src="https://i.imgur.com/qCdfM1A.png" alt="desktop preview">
