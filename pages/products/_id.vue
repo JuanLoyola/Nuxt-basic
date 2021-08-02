@@ -84,7 +84,7 @@ h6 {
   font-weight: 500;
 }
 p {
-  color: #808080
+  color: #808080;
 }
 .snippet {
   color: #000000c5;
@@ -105,9 +105,23 @@ button {
 }
 .description-container {
   margin-top: 3rem;
-  color: grey
+  color: grey;
 }
 .padding {
-  padding: 10rem 0
+  padding: 10rem 0;
+}
+
+@media (max-width: 740px) {
+  .hero-container {
+    width: 100%;
+    flex-flow: column;
+  }
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+  .info-box {
+    width: 100%;
+  }
 }
 </style>

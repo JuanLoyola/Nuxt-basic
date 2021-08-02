@@ -64,4 +64,54 @@ export default {
       height: 40vh;
     }
   }
+
+  @media (max-width: 1024px) {
+    .header {
+      font-size: 3rem;
+    }
+    .snippet {
+      font-size: 1.25rem;
+    }
+    .image {
+      width: 20.5em;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .header {
+      font-size: 2rem;
+    }
+    .snippet {
+      font-size: 1rem;
+    }
+    .image {
+      width: 15.5em;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .header {
+      font-size: 1.5rem;
+    }
+    .snippet {
+      font-size: 0.7rem;
+    }
+    .image {
+      width: 10em;
+    }
+    .button {
+      padding: 1rem 1rem;
+      border-radius: 100rem;
+      background-color: #e7512b;
+      color: white;
+      font-size: 1rem;
+      width: 10rem;
+      font-weight: 700;
+      transition: 0.5s;
+    }
+    .button:hover {
+      width: 12rem;
+      background:#cf8b7a;
+    }
+  }
 </style>

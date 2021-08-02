@@ -49,4 +49,21 @@ export default {
   .snippet {
     color: grey;
   }
+
+  @media (max-width:1024px) {
+    .image {
+      height: 50%;
+      border-radius: 0.5rem;
+    }
+  }
+
+  @media (max-width:800px) {
+    .image {
+      height: 28%;
+      border-radius: 0.5rem;
+    }
+    .header {
+      font-size: 1rem;
+    }
+  }
 </style>

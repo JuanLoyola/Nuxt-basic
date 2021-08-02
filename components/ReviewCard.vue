@@ -18,8 +18,8 @@
 
 <style scoped>
   .review-card {
-    width: 52em;
-    margin: 1.5rem 0;
+    width: 100%;
+    margin: 2.5rem 0;
     height: 5rem;
     display: flex;
     border-bottom: 1px dashed gray;
@@ -47,5 +47,18 @@
   }
   p {
     color: grey
+  }
+
+  @media (max-width:800px) {
+    .review-card {
+      width: 100%;
+      margin: 3rem 0rem;
+      height: 10em;
+      justify-content: center;
+      align-items: center;
+    }
+    .text-container {
+      margin-left: 2rem
+    }
   }
 </style>

@@ -23,4 +23,21 @@ export default {
     width: 100%;
     height: 100%
   }
+  @media (max-width:1024px) {
+    .image {
+      height: 90%;
+      border-radius: 0.5rem;
+    }
+  }
+
+  @media (max-width:767px) {
+    .image {
+      height:7em;
+      width: 7em;
+      border-radius: 0.5rem;
+    }
+    .header {
+      font-size: 1rem;
+    }
+  }
 </style>
