@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Nav class=""/>
     <div v-if="product" class="container py-5">
         <div class="hero-container">
             <img :src="require(`@/assets/images/${product.image}`)" alt="prduct image" class="image">
